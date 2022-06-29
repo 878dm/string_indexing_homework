@@ -7,9 +7,12 @@ def main(s):
         int: answer
     """
     len(s)==5
-    if '*'==s[3] or '*'==s[2] or '*'==s[0] or '*'==s[1] or '*'==s[4] :
-        return 1
+    x=s.find('*')
+    if x!=-1:
+        x=s.index("*")
+        return x
     else :
-        return False
+        x=False
+        return x
 
-print(main('aakmkj*'))
+print(main('aakm*'))
