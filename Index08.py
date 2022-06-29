@@ -6,5 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
-        
+    len(s)==5
+    if '*'==s[3] or '*'==s[2] or '*'==s[0] or '*'==s[1] or '*'==s[4] :
+        return 1
+    else :
+        return False
+
+print(main('aakmkj*'))

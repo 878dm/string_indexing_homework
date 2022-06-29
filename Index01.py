@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    # s=str(s)
+    return s[0]
+print(main("aotel"))

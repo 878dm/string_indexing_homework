@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    # len(s)==5
+    sum=0
+    sum+=int(s[0])+int(s[1])+int(s[2])+int(s[3])+int(s[4])
+    return sum
+
+print(main("10205"))

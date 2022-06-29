@@ -6,4 +6,27 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    # len(s)==5
+    n=0
+    if s[0].isdigit():
+        n+=1
+    else :
+        0
+    if s[1].isdigit() :
+        n+=1
+    else :
+        0
+    if s[2].isdigit() :
+        n+=1
+    else :
+        0
+    if s[3].isdigit() :
+        n+=1
+    else :
+        0
+    if s[4].isdigit() :
+        n+=1
+    else:
+        0
+    return n
+print(main('1i3n5'))
